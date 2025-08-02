@@ -17,5 +17,6 @@ module.exports = {
     },
     testMatch: [
         "**/views/**/*.spec.[jt]s?(x)"
-    ]
+    ],
+    setupFilesAfterEnv: ['<rootDir>/jest.setup.js']
 };
